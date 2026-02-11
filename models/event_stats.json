@@ -1,0 +1,866 @@
+{
+  "PPI m/m": {
+    "accuracy": 45.794392523364486,
+    "avg_confidence": 50.25806998443488,
+    "count": 257,
+    "unit_type": "Percent"
+  },
+  "French Final CPI m/m": {
+    "accuracy": 47.61904761904761,
+    "avg_confidence": 50.34835798215236,
+    "count": 96,
+    "unit_type": "Percent"
+  },
+  "Core PPI m/m": {
+    "accuracy": 46.93877551020408,
+    "avg_confidence": 50.244716563756775,
+    "count": 114,
+    "unit_type": "Percent"
+  },
+  "CPI y/y": {
+    "accuracy": 34.090909090909086,
+    "avg_confidence": 50.21135092651805,
+    "count": 103,
+    "unit_type": "Percent"
+  },
+  "Prelim UoM Inflation Expectations": {
+    "accuracy": 85.71428571428571,
+    "avg_confidence": 52.528510013107244,
+    "count": 154,
+    "unit_type": "Percent"
+  },
+  "German PPI m/m": {
+    "accuracy": 43.859649122807014,
+    "avg_confidence": 50.26694400145713,
+    "count": 140,
+    "unit_type": "Percent"
+  },
+  "Spanish Unemployment Rate": {
+    "accuracy": 61.904761904761905,
+    "avg_confidence": 50.341692998917644,
+    "count": 49,
+    "unit_type": "Percent"
+  },
+  "German Prelim CPI m/m": {
+    "accuracy": 50.943396226415096,
+    "avg_confidence": 50.24807729909517,
+    "count": 114,
+    "unit_type": "Percent"
+  },
+  "Unemployment Rate": {
+    "accuracy": 59.55056179775281,
+    "avg_confidence": 50.36905001963289,
+    "count": 188,
+    "unit_type": "Percent"
+  },
+  "CPI Flash Estimate y/y": {
+    "accuracy": 36.17021276595745,
+    "avg_confidence": 50.258575943930296,
+    "count": 99,
+    "unit_type": "Percent"
+  },
+  "Revised UoM Inflation Expectations": {
+    "accuracy": 95.23809523809523,
+    "avg_confidence": 52.710139972513424,
+    "count": 158,
+    "unit_type": "Percent"
+  },
+  "Italian Prelim CPI m/m": {
+    "accuracy": 35.84905660377358,
+    "avg_confidence": 50.14728709680097,
+    "count": 129,
+    "unit_type": "Percent"
+  },
+  "Capacity Utilization Rate": {
+    "accuracy": 58.620689655172406,
+    "avg_confidence": 50.233630444134356,
+    "count": 143,
+    "unit_type": "Percent"
+  },
+  "Core CPI m/m": {
+    "accuracy": 40.909090909090914,
+    "avg_confidence": 50.23864266540884,
+    "count": 90,
+    "unit_type": "Percent"
+  },
+  "Final Core CPI y/y": {
+    "accuracy": 50.0,
+    "avg_confidence": 50.79790865630967,
+    "count": 54,
+    "unit_type": "Percent"
+  },
+  "Final CPI y/y": {
+    "accuracy": 63.63636363636363,
+    "avg_confidence": 50.40399360883471,
+    "count": 34,
+    "unit_type": "Percent"
+  },
+  "CPI m/m": {
+    "accuracy": 39.53488372093023,
+    "avg_confidence": 50.21377014748168,
+    "count": 100,
+    "unit_type": "Percent"
+  },
+  "Italian Quarterly Unemployment Rate": {
+    "accuracy": 76.47058823529412,
+    "avg_confidence": 50.39249094612019,
+    "count": 32,
+    "unit_type": "Percent"
+  },
+  "Federal Funds Rate": {
+    "accuracy": 66.66666666666666,
+    "avg_confidence": 52.623337343296896,
+    "count": 3,
+    "unit_type": "Percent"
+  },
+  "German Final CPI m/m": {
+    "accuracy": 100.0,
+    "avg_confidence": 50.292267967960655,
+    "count": 17,
+    "unit_type": "Percent"
+  },
+  "Main Refinancing Rate": {
+    "accuracy": 50.0,
+    "avg_confidence": 50.28769866831328,
+    "count": 8,
+    "unit_type": "Percent"
+  },
+  "Italian Monthly Unemployment Rate": {
+    "accuracy": 66.07142857142857,
+    "avg_confidence": 50.32561369782974,
+    "count": 103,
+    "unit_type": "Percent"
+  },
+  "Spanish Flash CPI y/y": {
+    "accuracy": 46.42857142857143,
+    "avg_confidence": 50.2838868289192,
+    "count": 87,
+    "unit_type": "Percent"
+  },
+  "Core CPI Flash Estimate y/y": {
+    "accuracy": 34.883720930232556,
+    "avg_confidence": 50.14474582173032,
+    "count": 58,
+    "unit_type": "Percent"
+  },
+  "French Prelim CPI m/m": {
+    "accuracy": 54.71698113207547,
+    "avg_confidence": 50.203174138933136,
+    "count": 33,
+    "unit_type": "Percent"
+  },
+  "Spanish Manufacturing PMI": {
+    "accuracy": 64.51612903225806,
+    "avg_confidence": 50.10429231740326,
+    "count": 156,
+    "unit_type": "Index"
+  },
+  "Italian Manufacturing PMI": {
+    "accuracy": 50.81967213114754,
+    "avg_confidence": 50.104593902021534,
+    "count": 153,
+    "unit_type": "Index"
+  },
+  "ISM Manufacturing Prices": {
+    "accuracy": 53.125,
+    "avg_confidence": 50.10477289725313,
+    "count": 155,
+    "unit_type": "Index"
+  },
+  "ISM Manufacturing PMI": {
+    "accuracy": 60.9375,
+    "avg_confidence": 50.09835815061317,
+    "count": 153,
+    "unit_type": "Index"
+  },
+  "Spanish Services PMI": {
+    "accuracy": 52.38095238095239,
+    "avg_confidence": 50.0881182809058,
+    "count": 150,
+    "unit_type": "Index"
+  },
+  "Italian Services PMI": {
+    "accuracy": 47.540983606557376,
+    "avg_confidence": 50.08675982922316,
+    "count": 154,
+    "unit_type": "Index"
+  },
+  "Final Services PMI": {
+    "accuracy": 51.28205128205128,
+    "avg_confidence": 50.08970799749856,
+    "count": 205,
+    "unit_type": "Index"
+  },
+  "ISM Services PMI": {
+    "accuracy": 42.857142857142854,
+    "avg_confidence": 50.0953079975174,
+    "count": 154,
+    "unit_type": "Index"
+  },
+  "Retail PMI": {
+    "accuracy": 0.0,
+    "avg_confidence": 50.0,
+    "count": 139,
+    "unit_type": "Index"
+  },
+  "Consumer Confidence": {
+    "accuracy": 50.0,
+    "avg_confidence": 50.107471016011395,
+    "count": 108,
+    "unit_type": "Index"
+  },
+  "NFIB Small Business Index": {
+    "accuracy": 59.32203389830508,
+    "avg_confidence": 50.098376099689155,
+    "count": 152,
+    "unit_type": "Index"
+  },
+  "Sentix Investor Confidence": {
+    "accuracy": 54.83870967741935,
+    "avg_confidence": 50.09184587957674,
+    "count": 154,
+    "unit_type": "Index"
+  },
+  "ZEW Economic Sentiment": {
+    "accuracy": 49.2063492063492,
+    "avg_confidence": 50.105843997599834,
+    "count": 155,
+    "unit_type": "Index"
+  },
+  "German ZEW Economic Sentiment": {
+    "accuracy": 46.03174603174603,
+    "avg_confidence": 50.130839582378925,
+    "count": 155,
+    "unit_type": "Index"
+  },
+  "Empire State Manufacturing Index": {
+    "accuracy": 39.682539682539684,
+    "avg_confidence": 50.08806289858344,
+    "count": 156,
+    "unit_type": "Index"
+  },
+  "NAHB Housing Market Index": {
+    "accuracy": 56.60377358490566,
+    "avg_confidence": 50.0927914605476,
+    "count": 128,
+    "unit_type": "Index"
+  },
+  "Philly Fed Manufacturing Index": {
+    "accuracy": 54.83870967741935,
+    "avg_confidence": 50.08868046066179,
+    "count": 156,
+    "unit_type": "Index"
+  },
+  "Prelim UoM Consumer Sentiment": {
+    "accuracy": 50.79365079365079,
+    "avg_confidence": 50.08404362251402,
+    "count": 156,
+    "unit_type": "Index"
+  },
+  "Richmond Manufacturing Index": {
+    "accuracy": 50.0,
+    "avg_confidence": 50.1291497816808,
+    "count": 153,
+    "unit_type": "Index"
+  },
+  "CB Leading Index m/m": {
+    "accuracy": 57.14285714285714,
+    "avg_confidence": 50.07946335728073,
+    "count": 125,
+    "unit_type": "Index"
+  },
+  "CB Consumer Confidence": {
+    "accuracy": 55.55555555555556,
+    "avg_confidence": 50.09655463126922,
+    "count": 156,
+    "unit_type": "Index"
+  },
+  "Advance GDP Price Index q/q": {
+    "accuracy": 52.38095238095239,
+    "avg_confidence": 50.09853264610384,
+    "count": 48,
+    "unit_type": "Index"
+  },
+  "Employment Cost Index q/q": {
+    "accuracy": 35.294117647058826,
+    "avg_confidence": 50.10535018175848,
+    "count": 34,
+    "unit_type": "Index"
+  },
+  "Chicago PMI": {
+    "accuracy": 55.55555555555556,
+    "avg_confidence": 50.100404885484615,
+    "count": 155,
+    "unit_type": "Index"
+  },
+  "Final Manufacturing PMI": {
+    "accuracy": 50.0,
+    "avg_confidence": 50.10186018603447,
+    "count": 196,
+    "unit_type": "Index"
+  },
+  "Core PCE Price Index m/m": {
+    "accuracy": 50.0,
+    "avg_confidence": 50.10096705592444,
+    "count": 69,
+    "unit_type": "Index"
+  },
+  "Revised UoM Consumer Sentiment": {
+    "accuracy": 44.26229508196721,
+    "avg_confidence": 50.0995603582036,
+    "count": 154,
+    "unit_type": "Index"
+  },
+  "RCM/TIPP Economic Optimism": {
+    "accuracy": 50.79365079365079,
+    "avg_confidence": 50.098386201293756,
+    "count": 153,
+    "unit_type": "Index"
+  },
+  "Prelim GDP Price Index q/q": {
+    "accuracy": 20.0,
+    "avg_confidence": 50.09379749603011,
+    "count": 37,
+    "unit_type": "Index"
+  },
+  "Flash Services PMI": {
+    "accuracy": 52.800000000000004,
+    "avg_confidence": 50.09491992504768,
+    "count": 220,
+    "unit_type": "Index"
+  },
+  "Flash Manufacturing PMI": {
+    "accuracy": 48.38709677419355,
+    "avg_confidence": 50.09327420234945,
+    "count": 234,
+    "unit_type": "Index"
+  },
+  "Final GDP Price Index q/q": {
+    "accuracy": 58.333333333333336,
+    "avg_confidence": 50.110076273194736,
+    "count": 26,
+    "unit_type": "Index"
+  },
+  "French Flash Services PMI": {
+    "accuracy": 58.06451612903226,
+    "avg_confidence": 50.091746041109964,
+    "count": 142,
+    "unit_type": "Index"
+  },
+  "German Flash Services PMI": {
+    "accuracy": 49.2063492063492,
+    "avg_confidence": 50.093854858894716,
+    "count": 141,
+    "unit_type": "Index"
+  },
+  "French Flash Manufacturing PMI": {
+    "accuracy": 54.09836065573771,
+    "avg_confidence": 50.08535290614445,
+    "count": 138,
+    "unit_type": "Index"
+  },
+  "German Flash Manufacturing PMI": {
+    "accuracy": 50.81967213114754,
+    "avg_confidence": 50.10111071666768,
+    "count": 141,
+    "unit_type": "Index"
+  },
+  "German Final Manufacturing PMI": {
+    "accuracy": 44.827586206896555,
+    "avg_confidence": 50.1027604199081,
+    "count": 114,
+    "unit_type": "Index"
+  },
+  "French Final Manufacturing PMI": {
+    "accuracy": 37.28813559322034,
+    "avg_confidence": 50.10516730929786,
+    "count": 118,
+    "unit_type": "Index"
+  },
+  "German Final Services PMI": {
+    "accuracy": 60.0,
+    "avg_confidence": 50.088567818452034,
+    "count": 127,
+    "unit_type": "Index"
+  },
+  "French Final Services PMI": {
+    "accuracy": 65.45454545454545,
+    "avg_confidence": 50.094311347833575,
+    "count": 127,
+    "unit_type": "Index"
+  },
+  "Labor Market Conditions Index m/m": {
+    "accuracy": 0.0,
+    "avg_confidence": 50.0,
+    "count": 33,
+    "unit_type": "Index"
+  },
+  "Spanish Unemployment Change": {
+    "accuracy": 48.4375,
+    "avg_confidence": 51.64454759763877,
+    "count": 156,
+    "unit_type": "Jobs"
+  },
+  "German Unemployment Change": {
+    "accuracy": 53.96825396825397,
+    "avg_confidence": 51.17606880635319,
+    "count": 149,
+    "unit_type": "Jobs"
+  },
+  "ADP Non-Farm Employment Change": {
+    "accuracy": 50.81967213114754,
+    "avg_confidence": 51.20663668435947,
+    "count": 155,
+    "unit_type": "Jobs"
+  },
+  "Unemployment Claims": {
+    "accuracy": 57.14285714285714,
+    "avg_confidence": 51.04801191447185,
+    "count": 664,
+    "unit_type": "Jobs"
+  },
+  "Non-Farm Employment Change": {
+    "accuracy": 59.375,
+    "avg_confidence": 51.31288897235964,
+    "count": 154,
+    "unit_type": "Jobs"
+  },
+  "Final Employment Change q/q": {
+    "accuracy": 87.5,
+    "avg_confidence": 51.92127202660011,
+    "count": 35,
+    "unit_type": "Jobs"
+  },
+  "French Prelim Private Payrolls q/q": {
+    "accuracy": 50.0,
+    "avg_confidence": 51.18974289847977,
+    "count": 39,
+    "unit_type": "Jobs"
+  },
+  "French Final Private Payrolls q/q": {
+    "accuracy": 50.0,
+    "avg_confidence": 51.200951516586535,
+    "count": 33,
+    "unit_type": "Jobs"
+  },
+  "Flash Employment Change q/q": {
+    "accuracy": 66.66666666666666,
+    "avg_confidence": 51.81987585058744,
+    "count": 5,
+    "unit_type": "Jobs"
+  },
+  "Construction Spending m/m": {
+    "accuracy": 55.55555555555556,
+    "avg_confidence": 55.398462397928746,
+    "count": 152,
+    "unit_type": "Currency"
+  },
+  "Total Vehicle Sales": {
+    "accuracy": 0.0,
+    "avg_confidence": 50.0,
+    "count": 136,
+    "unit_type": "Currency"
+  },
+  "Challenger Job Cuts y/y": {
+    "accuracy": 75.0,
+    "avg_confidence": 65.11799418888646,
+    "count": 156,
+    "unit_type": "Currency"
+  },
+  "Pending Home Sales m/m": {
+    "accuracy": 57.14285714285714,
+    "avg_confidence": 55.90619504240075,
+    "count": 152,
+    "unit_type": "Currency"
+  },
+  "Factory Orders m/m": {
+    "accuracy": 61.81818181818181,
+    "avg_confidence": 54.17505500990946,
+    "count": 142,
+    "unit_type": "Currency"
+  },
+  "Crude Oil Inventories": {
+    "accuracy": 49.27007299270073,
+    "avg_confidence": 55.523281491315636,
+    "count": 664,
+    "unit_type": "Currency"
+  },
+  "Average Hourly Earnings m/m": {
+    "accuracy": 51.02040816326531,
+    "avg_confidence": 55.590109878036856,
+    "count": 114,
+    "unit_type": "Currency"
+  },
+  "Natural Gas Storage": {
+    "accuracy": 59.143968871595334,
+    "avg_confidence": 59.65286832520793,
+    "count": 660,
+    "unit_type": "Currency"
+  },
+  "German Retail Sales m/m": {
+    "accuracy": 59.375,
+    "avg_confidence": 57.330869704129704,
+    "count": 151,
+    "unit_type": "Currency"
+  },
+  "Consumer Credit m/m": {
+    "accuracy": 49.2063492063492,
+    "avg_confidence": 58.357778350133195,
+    "count": 155,
+    "unit_type": "Currency"
+  },
+  "German Trade Balance": {
+    "accuracy": 47.61904761904761,
+    "avg_confidence": 57.170363104804544,
+    "count": 150,
+    "unit_type": "Currency"
+  },
+  "German Industrial Production m/m": {
+    "accuracy": 67.21311475409836,
+    "avg_confidence": 56.445958029710944,
+    "count": 150,
+    "unit_type": "Currency"
+  },
+  "JOLTS Job Openings": {
+    "accuracy": 55.55555555555556,
+    "avg_confidence": 55.6088651189382,
+    "count": 153,
+    "unit_type": "Currency"
+  },
+  "French Gov Budget Balance": {
+    "accuracy": 100.0,
+    "avg_confidence": 92.58945446409197,
+    "count": 156,
+    "unit_type": "Currency"
+  },
+  "Trade Balance": {
+    "accuracy": 51.2,
+    "avg_confidence": 55.52702821480305,
+    "count": 303,
+    "unit_type": "Currency"
+  },
+  "French Trade Balance": {
+    "accuracy": 59.67741935483871,
+    "avg_confidence": 56.964822399260925,
+    "count": 148,
+    "unit_type": "Currency"
+  },
+  "German WPI m/m": {
+    "accuracy": 50.0,
+    "avg_confidence": 54.650069954824374,
+    "count": 142,
+    "unit_type": "Currency"
+  },
+  "French Industrial Production m/m": {
+    "accuracy": 57.14285714285714,
+    "avg_confidence": 57.33408686956457,
+    "count": 151,
+    "unit_type": "Currency"
+  },
+  "Final Wholesale Inventories m/m": {
+    "accuracy": 52.38095238095239,
+    "avg_confidence": 53.78293359879199,
+    "count": 143,
+    "unit_type": "Currency"
+  },
+  "Import Prices m/m": {
+    "accuracy": 55.00000000000001,
+    "avg_confidence": 53.57309276256322,
+    "count": 139,
+    "unit_type": "Currency"
+  },
+  "Retail Sales m/m": {
+    "accuracy": 64.03508771929825,
+    "avg_confidence": 55.1437098875662,
+    "count": 275,
+    "unit_type": "Currency"
+  },
+  "Core Retail Sales m/m": {
+    "accuracy": 63.793103448275865,
+    "avg_confidence": 53.71275218666732,
+    "count": 139,
+    "unit_type": "Currency"
+  },
+  "Federal Budget Balance": {
+    "accuracy": 51.61290322580645,
+    "avg_confidence": 56.71817050347142,
+    "count": 156,
+    "unit_type": "Currency"
+  },
+  "Italian Industrial Production m/m": {
+    "accuracy": 55.73770491803278,
+    "avg_confidence": 55.733135896035336,
+    "count": 152,
+    "unit_type": "Currency"
+  },
+  "Industrial Production m/m": {
+    "accuracy": 48.69565217391305,
+    "avg_confidence": 54.92841900080452,
+    "count": 283,
+    "unit_type": "Currency"
+  },
+  "TIC Long-Term Purchases": {
+    "accuracy": 58.06451612903226,
+    "avg_confidence": 57.967659386790636,
+    "count": 156,
+    "unit_type": "Currency"
+  },
+  "Building Permits": {
+    "accuracy": 57.14285714285714,
+    "avg_confidence": 55.10803428148976,
+    "count": 142,
+    "unit_type": "Currency"
+  },
+  "Housing Starts": {
+    "accuracy": 51.66666666666667,
+    "avg_confidence": 54.61368476645326,
+    "count": 147,
+    "unit_type": "Currency"
+  },
+  "Italian Trade Balance": {
+    "accuracy": 61.904761904761905,
+    "avg_confidence": 56.9035662975515,
+    "count": 156,
+    "unit_type": "Currency"
+  },
+  "French Consumer Spending m/m": {
+    "accuracy": 60.0,
+    "avg_confidence": 56.63487379042401,
+    "count": 151,
+    "unit_type": "Currency"
+  },
+  "Industrial New Orders m/m": {
+    "accuracy": 0.0,
+    "avg_confidence": 50.0,
+    "count": 65,
+    "unit_type": "Currency"
+  },
+  "Belgian NBB Business Climate": {
+    "accuracy": 47.540983606557376,
+    "avg_confidence": 54.481681643913426,
+    "count": 152,
+    "unit_type": "Currency"
+  },
+  "Current Account": {
+    "accuracy": 45.78313253012048,
+    "avg_confidence": 57.1282734974507,
+    "count": 205,
+    "unit_type": "Currency"
+  },
+  "German GfK Consumer Climate": {
+    "accuracy": 50.81967213114754,
+    "avg_confidence": 56.437149871687595,
+    "count": 132,
+    "unit_type": "Currency"
+  },
+  "German ifo Business Climate": {
+    "accuracy": 52.459016393442624,
+    "avg_confidence": 55.426797843528576,
+    "count": 153,
+    "unit_type": "Currency"
+  },
+  "Italian Retail Sales m/m": {
+    "accuracy": 50.0,
+    "avg_confidence": 58.824214704543245,
+    "count": 145,
+    "unit_type": "Currency"
+  },
+  "Existing Home Sales": {
+    "accuracy": 60.65573770491803,
+    "avg_confidence": 55.314732099770126,
+    "count": 152,
+    "unit_type": "Currency"
+  },
+  "Private Loans y/y": {
+    "accuracy": 56.52173913043478,
+    "avg_confidence": 54.684908201954926,
+    "count": 114,
+    "unit_type": "Currency"
+  },
+  "M3 Money Supply y/y": {
+    "accuracy": 50.847457627118644,
+    "avg_confidence": 54.234798449388876,
+    "count": 136,
+    "unit_type": "Currency"
+  },
+  "Durable Goods Orders m/m": {
+    "accuracy": 53.96825396825397,
+    "avg_confidence": 54.36939357664213,
+    "count": 154,
+    "unit_type": "Currency"
+  },
+  "German Import Prices m/m": {
+    "accuracy": 50.0,
+    "avg_confidence": 55.42084729212164,
+    "count": 146,
+    "unit_type": "Currency"
+  },
+  "Core Durable Goods Orders m/m": {
+    "accuracy": 50.847457627118644,
+    "avg_confidence": 54.921223810871275,
+    "count": 147,
+    "unit_type": "Currency"
+  },
+  "New Home Sales": {
+    "accuracy": 44.44444444444444,
+    "avg_confidence": 54.89651605372492,
+    "count": 154,
+    "unit_type": "Currency"
+  },
+  "S&P/CS Composite-20 HPI y/y": {
+    "accuracy": 62.06896551724138,
+    "avg_confidence": 55.28669584885195,
+    "count": 135,
+    "unit_type": "Currency"
+  },
+  "Advance GDP q/q": {
+    "accuracy": 60.0,
+    "avg_confidence": 57.70152896209383,
+    "count": 51,
+    "unit_type": "Currency"
+  },
+  "German Factory Orders m/m": {
+    "accuracy": 62.5,
+    "avg_confidence": 56.69172942020093,
+    "count": 152,
+    "unit_type": "Currency"
+  },
+  "Prelim Unit Labor Costs q/q": {
+    "accuracy": 57.14285714285714,
+    "avg_confidence": 57.84835812028889,
+    "count": 49,
+    "unit_type": "Currency"
+  },
+  "Prelim Nonfarm Productivity q/q": {
+    "accuracy": 55.00000000000001,
+    "avg_confidence": 58.55494938473852,
+    "count": 49,
+    "unit_type": "Currency"
+  },
+  "German Prelim GDP q/q": {
+    "accuracy": 44.44444444444444,
+    "avg_confidence": 56.265125233104264,
+    "count": 42,
+    "unit_type": "Currency"
+  },
+  "French Prelim GDP q/q": {
+    "accuracy": 44.44444444444444,
+    "avg_confidence": 58.163167873759214,
+    "count": 37,
+    "unit_type": "Currency"
+  },
+  "Italian Prelim GDP q/q": {
+    "accuracy": 66.66666666666666,
+    "avg_confidence": 55.025504491676315,
+    "count": 39,
+    "unit_type": "Currency"
+  },
+  "Flash GDP q/q": {
+    "accuracy": 60.0,
+    "avg_confidence": 56.08741385420588,
+    "count": 34,
+    "unit_type": "Currency"
+  },
+  "Business Inventories m/m": {
+    "accuracy": 48.484848484848484,
+    "avg_confidence": 53.8562002237674,
+    "count": 114,
+    "unit_type": "Currency"
+  },
+  "Prelim GDP q/q": {
+    "accuracy": 43.75,
+    "avg_confidence": 59.22705486428378,
+    "count": 39,
+    "unit_type": "Currency"
+  },
+  "Personal Income m/m": {
+    "accuracy": 42.5531914893617,
+    "avg_confidence": 54.82668087319412,
+    "count": 123,
+    "unit_type": "Currency"
+  },
+  "Personal Spending m/m": {
+    "accuracy": 58.82352941176471,
+    "avg_confidence": 54.95919811612554,
+    "count": 111,
+    "unit_type": "Currency"
+  },
+  "Revised Unit Labor Costs q/q": {
+    "accuracy": 52.38095238095239,
+    "avg_confidence": 58.34111354561606,
+    "count": 49,
+    "unit_type": "Currency"
+  },
+  "Revised Nonfarm Productivity q/q": {
+    "accuracy": 47.368421052631575,
+    "avg_confidence": 55.72239091345246,
+    "count": 44,
+    "unit_type": "Currency"
+  },
+  "Mortgage Delinquencies": {
+    "accuracy": 100.0,
+    "avg_confidence": 85.06988727271428,
+    "count": 52,
+    "unit_type": "Currency"
+  },
+  "Final GDP q/q": {
+    "accuracy": 80.0,
+    "avg_confidence": 57.22041843715515,
+    "count": 49,
+    "unit_type": "Currency"
+  },
+  "Spanish Flash GDP q/q": {
+    "accuracy": 47.368421052631575,
+    "avg_confidence": 55.840035511212406,
+    "count": 25,
+    "unit_type": "Currency"
+  },
+  "HPI m/m": {
+    "accuracy": 52.54237288135594,
+    "avg_confidence": 53.60215574191748,
+    "count": 125,
+    "unit_type": "Currency"
+  },
+  "Revised GDP q/q": {
+    "accuracy": 61.53846153846154,
+    "avg_confidence": 63.157865923339706,
+    "count": 4,
+    "unit_type": "Currency"
+  },
+  "Long Term Refinancing Operation": {
+    "accuracy": 0.0,
+    "avg_confidence": 50.0,
+    "count": 14,
+    "unit_type": "Currency"
+  },
+  "Goods Trade Balance": {
+    "accuracy": 57.14285714285714,
+    "avg_confidence": 54.45554654424639,
+    "count": 51,
+    "unit_type": "Currency"
+  },
+  "Wards Total Vehicle Sales": {
+    "accuracy": 49.152542372881356,
+    "avg_confidence": 58.23744410188646,
+    "count": 47,
+    "unit_type": "Currency"
+  },
+  "Prelim Flash GDP q/q": {
+    "accuracy": 57.14285714285714,
+    "avg_confidence": 54.91220147946342,
+    "count": 7,
+    "unit_type": "Currency"
+  },
+  "French Flash GDP q/q": {
+    "accuracy": 70.58823529411765,
+    "avg_confidence": 56.28239015794571,
+    "count": 10,
+    "unit_type": "Currency"
+  },
+  "Prelim Wholesale Inventories m/m": {
+    "accuracy": 49.122807017543856,
+    "avg_confidence": 53.672560263997426,
+    "count": 36,
+    "unit_type": "Currency"
+  }
+}

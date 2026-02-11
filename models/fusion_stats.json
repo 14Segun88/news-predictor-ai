@@ -1,0 +1,15 @@
+{
+  "accuracy": 54.16401780038144,
+  "high_conf_accuracy": 85.71428571428571,
+  "high_conf_count": 14,
+  "pred_distribution": {
+    "\u043d\u0438\u0436\u0435": 4325,
+    "\u0432\u044b\u0448\u0435": 3540
+  },
+  "true_distribution": {
+    "\u043d\u0438\u0436\u0435": 3882,
+    "\u0432\u044b\u0448\u0435": 3983
+  },
+  "avg_confidence": 0.5353973507881165,
+  "best_epoch": 3
+}

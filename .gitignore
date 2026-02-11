@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# Data (exclude raw bulky files if needed, but keeping main ones for 'as is' experience)
+# data/raw_calendar.csv  <-- User wants "as is", so we might keep it if <100MB
+# data/enriched_calendar.csv
+
+# Models (exclude if >100MB, otherwise keep)
+# models/*.bin
+# models/*.pt 
+
+# Logs
+*.log
+logs/
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
