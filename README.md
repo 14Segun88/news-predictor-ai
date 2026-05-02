@@ -1,10 +1,61 @@
-# 🧠 News Predictor AI (Малыш v4.0)
+# News Predictor AI — Hybrid ML System for Financial Event Prediction
 
-Это AI-проект для предсказания реакции рынка (Forex/Stocks) на экономические новости (CPI, NFP, GDP и т.д.).
-Использует гибридную нейросеть **PyTorch Fusion Network**, которая объединяет:
-1.  📊 **Табличные данные** (139 фичей: RSI, VIX, DXY, разница прогнозов)
-2.  📚 **Правила из книг** (Embeddings из Investopedia/BabyPips)
-3.  🗣️ **Сентимент трейдеров** (Анализ "настроения толпы")
+> **Problem:** Трейдеры и аналитики реагируют на экономические новости (CPI, NFP, GDP) интуитивно, без систематического анализа исторических паттернов. Ручной анализ влияния макроэкономических событий на валютные пары (EUR, USD, RUB) занимает часы.
+>
+> **Solution:** Гибридная ML-система, объединяющая 3 источника сигналов: табличные данные (139 фичей), knowledge base из Investopedia/BabyPips (embeddings), и анализ трейдерского сентимента — через PyTorch Fusion Network + 4 специализированных CatBoost-модели.
+>
+> **Outcome:** 54.16% overall accuracy на 7865 исторических событиях (baseline 50% на эффективном рынке). При confidence >65% — 85.7% accuracy. Telegram-бот выдаёт прогноз за секунды.
+
+### Key Metrics
+| Metric | Value |
+|---|---|
+| Обучающая выборка | 7 865 экономических событий |
+| Валюты | EUR, USD, RUB |
+| Табличных фичей | 139 (RSI, VIX, DXY, delta прогнозов) |
+| CatBoost-моделей | 4 (currency, percent, jobs, index) |
+| Overall accuracy | 54.16% (random baseline = 50%) |
+| High-confidence accuracy (>65%) | 85.7% |
+| ML-приёмы | LayerNorm, AdamW, Cosine Annealing, gradient clipping, time-based split |
+
+### Pipeline Architecture
+
+```mermaid
+flowchart LR
+    subgraph Data Collection
+        A[investing.com<br/>Playwright] --> B[Raw Calendar]
+        C[yfinance] --> D[Market Data<br/>RSI, VIX, DXY]
+    end
+    
+    subgraph Feature Engineering
+        B --> E[Clean & Enrich<br/>139 features]
+        D --> E
+    end
+    
+    subgraph Knowledge Base
+        F[Investopedia<br/>BabyPips] --> G[Book Embeddings<br/>sentence-transformers]
+        H[Trader Chats] --> I[Sentiment Embeddings]
+    end
+    
+    subgraph Models
+        E --> J[4× CatBoost<br/>currency/percent/jobs/index]
+        E --> K[PyTorch Fusion Network]
+        G --> K
+        I --> K
+        J --> K
+    end
+    
+    K --> L[🤖 Telegram Bot<br/>UP/DOWN + confidence %]
+```
+
+### Tech Stack
+![Python](https://img.shields.io/badge/Python-3.10+-blue?style=flat&logo=python)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch)
+![CatBoost](https://img.shields.io/badge/CatBoost-FFCC00?style=flat)
+![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat&logo=playwright)
+![aiogram](https://img.shields.io/badge/aiogram-2CA5E0?style=flat&logo=telegram)
+
+### Demo
+🎬 [Видео-демо работы бота](#)
 
 ---
 
@@ -21,7 +72,8 @@ python3 -m playwright install chromium
 ### 2. Запуск бота
 ```bash
 # Нужно задать токен вашего бота (получить у @BotFather)
-export BOT_TOKEN='ваш_токен_здесь'
+# Скопируйте .env.example в .env и укажите токен:
+cp .env.example .env
 
 # Запуск
 python3 step11_bot_fusion.py
