@@ -76,23 +76,33 @@ python3 -m playwright install chromium
 cp .env.example .env
 
 # Запуск
-python3 step11_bot_fusion.py
+python3 bot/telegram_bot.py
 ```
 
 ---
 
-## 📂 Структура проекта (По шагам)
+## 📂 Структура проекта
 
-Проект построен как обучающий курс. Вы можете пройти все шаги заново:
-
-*   **Шаг 1:** `python3 step1_explain.py` — Теория ML (просто текст).
-*   **Шаг 2:** `python3 step2_collect_data.py` — Сбор данных с investing.com (Playwright).
-*   **Шаг 3:** `python3 step3_clean_data.py` — Очистка данных.
-*   **Шаг 3b:** `python3 step3b_enrich_data.py` — Обогащение рыночными данными (yfinance).
-*   **Шаг 4-5:** Обучение базового CatBoost (устарело, но работает).
-*   **Шаг 7-8:** `python3 step7_prepare_books.py` + `step8_create_embeddings.py` — Создание базы знаний и Embeddings.
-*   **Шаг 9:** `python3 step9_train_fusion.py` — **Обучение главной нейросети (Fusion Network)**.
-*   **Шаг 11:** `python3 step11_bot_fusion.py` — **Финальный Telegram бот**.
+```
+pipeline/
+  01_collect_data.py      # Сбор данных с investing.com (Playwright)
+  02_clean_data.py        # Очистка и нормализация
+  03_enrich_data.py       # Обогащение рыночными данными (yfinance: RSI, VIX, DXY)
+  04_train_catboost.py    # Обучение 4× CatBoost-моделей
+  05_test_model.py        # Тестирование моделей
+  06_prepare_books.py     # Парсинг Investopedia/BabyPips в knowledge base
+  06b_trader_sentiment.py # Анализ трейдерского сентимента
+  07_create_embeddings.py # Генерация embeddings (sentence-transformers)
+  08_train_fusion.py      # Обучение PyTorch Fusion Network
+  09_final_prediction.py  # Финальный прогноз
+bot/
+  telegram_bot.py         # Telegram-бот (Fusion Network + CatBoost)
+  predict_bot.py          # Бот на базовом CatBoost
+docs/
+  theory.py               # Теоретические основы ML-пайплайна
+data/                     # Датасеты
+models/                   # Обученные модели CatBoost
+```
 
 ---
 
