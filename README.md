@@ -17,6 +17,8 @@
 | High-confidence accuracy (>65%) | 85.7% |
 | ML-приёмы | LayerNorm, AdamW, Cosine Annealing, gradient clipping, time-based split |
 
+> **Note on accuracy:** On efficient financial markets, a random baseline is 50%. Achieving 54% overall means the model captures a real signal — and at high confidence (>65%), accuracy jumps to **85.7%**, which is actionable for selective trading. The system is designed to abstain from low-confidence predictions, following a "precision over recall" strategy.
+
 ### Pipeline Architecture
 
 ```mermaid
@@ -54,8 +56,6 @@ flowchart LR
 ![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat&logo=playwright)
 ![aiogram](https://img.shields.io/badge/aiogram-2CA5E0?style=flat&logo=telegram)
 
-### Demo
-🎬 [Видео-демо работы бота](#)
 
 ---
 
@@ -99,7 +99,7 @@ bot/
   telegram_bot.py         # Telegram-бот (Fusion Network + CatBoost)
   predict_bot.py          # Бот на базовом CatBoost
 docs/
-  theory.py               # Теоретические основы ML-пайплайна
+  theory.md               # Теоретические основы ML-пайплайна
 data/                     # Датасеты
 models/                   # Обученные модели CatBoost
 ```
